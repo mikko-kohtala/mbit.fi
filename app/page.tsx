@@ -1,37 +1,37 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-black">
-      <div className="max-w-2xl mx-auto text-center space-y-8">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-black p-8">
+      <div className="mx-auto max-w-2xl space-y-8 text-center">
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold text-white">Mbit Finland</h1>
-          <p className="text-xl text-gray-400 font-mono">FI28178724</p>
-          <p className="text-lg text-gray-300">Mikko Kohtala</p>
+          <h1 className="font-bold text-4xl text-white">Mbit Finland</h1>
+          <p className="font-mono text-gray-400 text-xl">FI28178724</p>
+          <p className="text-gray-300 text-lg">Mikko Kohtala</p>
         </div>
 
         <div className="flex items-center justify-center gap-6 text-sm">
           <a
+            className="text-gray-400 underline underline-offset-4 transition-colors duration-200 hover:text-white"
             href="https://github.com/mikko-kohtala"
-            target="_blank"
             rel="noreferrer external"
-            className="text-gray-400 hover:text-white transition-colors duration-200 underline underline-offset-4"
+            target="_blank"
           >
             GitHub
           </a>
           <span className="text-gray-600">|</span>
           <a
+            className="text-gray-400 underline underline-offset-4 transition-colors duration-200 hover:text-white"
             href="https://www.linkedin.com/in/mikko-kohtala/"
-            target="_blank"
             rel="noreferrer external"
-            className="text-gray-400 hover:text-white transition-colors duration-200 underline underline-offset-4"
+            target="_blank"
           >
             LinkedIn
           </a>
           <span className="text-gray-600">|</span>
           <a
+            className="text-gray-400 underline underline-offset-4 transition-colors duration-200 hover:text-white"
             href="https://twitter.com/mikko_kohtala"
-            target="_blank"
             rel="noreferrer external"
-            className="text-gray-400 hover:text-white transition-colors duration-200 underline underline-offset-4"
+            target="_blank"
           >
             X
           </a>
