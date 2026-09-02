@@ -1,10 +1,10 @@
 <svg
-  height="64"
+  height="512"
   viewBox="0 0 64 64"
-  width="64"
+  width="512"
   xmlns="http://www.w3.org/2000/svg"
 >
   <title>Mbit mark</title>
-  <rect fill="#fff" height="64" rx="14" width="64" />
+  <rect fill="#fff" height="512" rx="14" width="512" />
   <path d="M14 18h7l11 14 11-14h7v28h-7V28L32 42 21 28v18h-7z" fill="#000" />
 </svg>
