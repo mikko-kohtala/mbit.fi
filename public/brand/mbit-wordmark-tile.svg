@@ -1,0 +1,23 @@
+<svg
+  height="128"
+  viewBox="0 0 136 64"
+  width="272"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>Mbit</title>
+  <rect fill="#000" height="64" rx="14" width="136" />
+  <g transform="translate(20 4)">
+    <path d="M6 16h6l10 14 10-14h6v28h-6V26L22 40 12 26v18H6z" fill="#fff" />
+    <path d="M46 12v32" fill="none" stroke="#fff" stroke-width="6" />
+    <circle cx="54" cy="34" fill="none" r="8" stroke="#fff" stroke-width="6" />
+    <path d="M72 24v20" fill="none" stroke="#fff" stroke-width="6" />
+    <rect fill="#fff" height="7" width="7" x="68.5" y="12" />
+    <path
+      d="M84 16v22a6 6 0 0 0 6 6"
+      fill="none"
+      stroke="#fff"
+      stroke-width="6"
+    />
+    <path d="M78 24h12" fill="none" stroke="#fff" stroke-width="6" />
+  </g>
+</svg>
