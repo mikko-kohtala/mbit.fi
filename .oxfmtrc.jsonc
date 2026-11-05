@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  // Matches the previous Biome/Ultracite style to avoid churn.
+  "printWidth": 80,
+  "trailingComma": "es5",
+  "sortImports": { "newlinesBetween": false },
+  // Generated code and build output stay outside the formatter; Markdown is prose and must not churn.
+  "ignorePatterns": [
+    "**/.next/**",
+    "next-env.d.ts",
+    "**/*.md",
+    ".claude/**",
+    "bun.lock",
+  ],
+}
